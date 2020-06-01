@@ -1,0 +1,3 @@
+[submodule "code/external/Fiber/head"]
+	path = code/external/Fiber/head
+	url = git@github.com:relpatseht/Fiber.git

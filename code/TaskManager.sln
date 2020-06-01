@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{32640702-F4B2-4E76-B4AF-D59BA3E9A6EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskManager", "TaskManager.vcxproj", "{6F360A04-03AB-4263-83E1-EAAE696A4445}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fiber", "external\Fiber\head\code\Fiber.vcxproj", "{6F360A04-03AB-4263-83E1-EABE696A4445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F360A04-03AB-4263-83E1-EAAE696A4445}.Debug|x64.ActiveCfg = Debug|x64
+		{6F360A04-03AB-4263-83E1-EAAE696A4445}.Debug|x64.Build.0 = Debug|x64
+		{6F360A04-03AB-4263-83E1-EAAE696A4445}.Release|x64.ActiveCfg = Release|x64
+		{6F360A04-03AB-4263-83E1-EAAE696A4445}.Release|x64.Build.0 = Release|x64
+		{6F360A04-03AB-4263-83E1-EABE696A4445}.Debug|x64.ActiveCfg = Debug|x64
+		{6F360A04-03AB-4263-83E1-EABE696A4445}.Debug|x64.Build.0 = Debug|x64
+		{6F360A04-03AB-4263-83E1-EABE696A4445}.Release|x64.ActiveCfg = Release|x64
+		{6F360A04-03AB-4263-83E1-EABE696A4445}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F360A04-03AB-4263-83E1-EABE696A4445} = {32640702-F4B2-4E76-B4AF-D59BA3E9A6EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0F0BD38-1D27-4569-83B4-4F2DBFD7DA5F}
+	EndGlobalSection
+EndGlobal
